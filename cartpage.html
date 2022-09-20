@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>GADGET SHOP</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/design.css">
+      <link rel="stylesheet" href="css/desayn.css">
+      <link rel="stylesheet" href="css/cart.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+      
+
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+   </head>
+   <!-- body -->
+   <body class="main-layout inner_posituong">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+
+                  <div class="header">
+
+                     <div class="container-fluid">
+                        <div class="row">
+         
+                                    <div class="menu-btn">
+                                       <i class="fas fa-bars"></i>
+                                     </div>
+
+
+                                     <div class="side-bar">
+                                       <div class="close-btn">
+                                         <i class="fas fa-times"></i>
+                                       </div>
+                                       <div class="menu">
+                                         <div class="item"><a href="index.html"><i class="fas fa-desktop"></i>Home</a></div>
+                                         <div class="item">
+                                           <a class="sub-btn"><i class="fas fa-table"></i>Products<i class="fas fa-angle-right dropdown"></i></a>
+                                           <div class="sub-menu">
+                                             <a href="product.html" class="sub-item">Android</a>
+                                             <a href="ios.html" class="sub-item">IOS</a>
+                                           </div>
+                                         </div>
+                                         <div class="item"><a href="#"><i class="fas fa-th"></i>Contact Info.</a></div>
+                                 
+                                         <div class="item"><a href="#"><i class="fas fa-info-circle"></i>About us</a></div>
+                                         <div class="item" style="color: black;">dad </div>
+                                         <div class="item"><a href="login.html"><i class="fas fa-sign-in-alt"></i>Login</a></div>
+                                         <div class="item"><a href="#"><i class="fa fa-search"></i>Search</a></div>
+                                       </div>
+                                     </div>
+                                     
+                                  
+                                     <script type="text/javascript">
+                                     $(document).ready(function(){
+                                       //jquery for toggle sub menus
+                                       $('.sub-btn').click(function(){
+                                         $(this).next('.sub-menu').slideToggle();
+                                         $(this).find('.dropdown').toggleClass('rotate');
+                                       });
+                                  
+                                       //jquery for expand and collapse the sidebar
+                                       $('.menu-btn').click(function(){
+                                         $('.side-bar').addClass('active');
+                                         $('.menu-btn').css("visibility", "hidden");
+                                       });
+                                  
+                                       $('.close-btn').click(function(){
+                                         $('.side-bar').removeClass('active');
+                                         $('.menu-btn').css("visibility", "visible");
+                                       });
+                                     });
+                                     </script>
+                                  
+                           </div>
+                      
+                           
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- products -->
+      <div class="bodysample">
+         
+        <div class="pictures">
+         
+            <div class="container">
+
+               <div style="padding-bottom: 15px;">
+                <h1 style="text-align: center;"><b>Cart Page</b></h1>
+               </div>
+            
+                <div class="cart">
+            
+                    <div class="products">
+            
+                        <div class="product">
+            
+                            <img src="images/narzo.png">
+            
+                            <div class="product-info">
+            
+                                <h3 class="product-name">Realme Narzo 50i</h3>
+            
+                                <h4 class="product-price">₱ 4,780</h4>
+            
+                                
+            
+                                <p class="product-quantity">Qnt: <input value="1" name="">
+            
+                                <p class="product-remove">
+            
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+            
+                                    <span class="remove">Remove</span>
+            
+                                </p>
+            
+                            </div>
+            
+                        </div>
+            
+                        <div class="product">
+            
+                            <img src="images/12maxpro.png">
+            
+                            <div class="product-info">
+            
+                                <h3 class="product-name">Iphone 12 Max Pro</h3>
+            
+                                <h4 class="product-price">₱67,069</h4>
+            
+            
+                                <p class="product-quantity">Qnt: <input value="1" name="">
+            
+                                <p class="product-remove">
+            
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+            
+                                    <span class="remove">Remove</span>
+            
+                                </p>
+            
+                            </div>
+            
+                        </div>
+            
+                    </div>
+            
+                    <div class="cart-total">
+            
+                        <p>
+            
+                            <span>Total Price</span>
+            
+                            <span>₱71,849</span>
+            
+                        </p>
+            
+                        <p>
+            
+                            <span>Number of Items</span>
+            
+                            <span>2</span>
+            
+                        </p>
+            
+                        <p>
+            
+                            <span>You Save</span>
+            
+                            <span>₱ 1,000</span>
+            
+                        </p>
+            
+                        <a href="#">Proceed to Checkout</a>
+            
+                    </div>
+            
+                </div>
+            
+            </div>
+
+        </div>
+      </div>
+
+              
+      
+     
+
+     
+
+
+      
+      <!-- end products -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <img class="logo1" src="images/logo1.png" alt="#"/>
+                     <ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>Contact Us</h3>
+                     <ul class="conta">
+                        <li id="contact">Contact #: 09493093856<br> Email: patrickidoltinker</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved.</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>GADGET SHOP</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/design.css">
+      <link rel="stylesheet" href="css/desayn.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+      
+      
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+      <!-- end loader -->
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+
+                           <div class="menu-btn">
+                              <i class="fas fa-bars"></i>
+                            </div>
+                            <div class="side-bar">
+                              <div class="close-btn">
+                                <i class="fas fa-times"></i>
+                              </div>
+                              <div class="menu">
+                                <div class="item"><a href="#"><i class="fas fa-desktop"></i>Home</a></div>
+                                <div class="item">
+                                  <a class="sub-btn"><i class="fas fa-table"></i>Products<i class="fas fa-angle-right dropdown"></i></a>
+                                  <div class="sub-menu">
+                                    <a href="product.html" class="sub-item">Android</a>
+                                    <a href="ios.html" class="sub-item">IOS</a>
+                                  </div>
+                                </div>
+                                <div class="item"><a href="#contact"><i class="fas fa-th"></i>Contact Info.</a></div>
+                        
+                                <div class="item"><a href="#About"><i class="fas fa-info-circle"></i>About us</a></div>
+                                <div class="item" style="color: black;">dad </div>
+                                <div class="item"><a href="login.html"><i class="fas fa-sign-in-alt"></i>Login</a></div>
+                                <div class="item"><a href="#"><i class="fa fa-search"></i>Search</a></div>
+                              </div>
+                            </div>
+                            
+                         
+                            <script type="text/javascript">
+                            $(document).ready(function(){
+                              //jquery for toggle sub menus
+                              $('.sub-btn').click(function(){
+                                $(this).next('.sub-menu').slideToggle();
+                                $(this).find('.dropdown').toggleClass('rotate');
+                              });
+                         
+                              //jquery for expand and collapse the sidebar
+                              $('.menu-btn').click(function(){
+                                $('.side-bar').addClass('active');
+                                $('.menu-btn').css("visibility", "hidden");
+                              });
+                         
+                              $('.close-btn').click(function(){
+                                $('.side-bar').removeClass('active');
+                                $('.menu-btn').css("visibility", "visible");
+                              });
+                            });
+                            </script>
+
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- end header inner -->
+      <!-- end header -->
+      <!-- banner -->
+      
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+
+         </div>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="text-bg">
+                                 <span>Welcome to <img src="images/logo1.png" width="175"; height="65";></span>
+                                 <h1>Mobile Phone Store</h1>
+                                 <p> "Best quality for our beloved customers"</p>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="text_img">
+                                 <figure><img src="images/mobiles.png" alt="#"/></figure>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end banner -->
+      <!-- three_box -->
+
+      
+      <div class="three_box">
+         <div class="container">
+            <div class="intro">
+               <h1>Product Description</h1>
+               <div class="row">
+                  <div class="col-md-4">
+                  <div class="box_text">
+                     <i><img src="images/thr.png" alt="#"/></i>
+                     <h3>Android</h3>
+                     <p>An Android device is a device that runs on the Android operating system. 
+                        Android is an array of software intended for mobile devices that features an operating system, 
+                        core applications and middleware. The Android operating system is developed and owned by Google.   
+
+         
+                        
+                     </p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="box_text">
+                     <i><img src="images/thr1.png" alt="#"/></i>
+                     <h3>IOS</h3>
+                     <p>IOS is a mobile operating system for Apple-manufactured devices. iOS runs on the iPhone, iPad, iPod Touch and Apple TV.
+                        IOS is best known for serving as the underlying software that allows iPhone users to interact with their phones using gestures such as swiping, tapping and pinching. 
+
+
+
+
+
+                     </p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- three_box -->
+      <!-- products -->
+      
+      <!-- end products -->
+      <!-- laptop  section -->
+      
+      <!-- end laptop  section -->
+      <!-- customer -->
+      <div class="customer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide customer_Carousel " data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-9 offset-md-3">
+                                       <div class="test_box">
+                                          <i><img src="images/cos.png" alt="#"/></i>
+                                          <h4 id="About">About Tricky's Mobile Phone Store</h4>
+                                          <p>
+                                             The term "Tricky's" is invented and came from the name of the owner of this business, 
+                                             Patrick Gerald W. Heyres. The focus of this business is to provide the best quality mobile phones for customers on this online platform. 
+                                             We began to start this business in 2018 near the public market and the outcome is very unexpected, so our business stopped 8 months after. 
+                                             This year, we are back in this business through an online platform so that the customers will reach us anywhere.
+                                             
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <img class="logo1" src="images/logo1.png" alt="#"/>
+                     <ul class="social_icon">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                  </div>
+                  <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                     <h3>Contact Us</h3>
+                     <ul class="conta">
+                        <li id="contact">Contact #: 09493093856<br> Email: patrickidoltinker</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2019 All Rights Reserved.</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
+
